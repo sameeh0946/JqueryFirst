@@ -1,0 +1,113 @@
+
+.buttons{
+    margin-left: 5vw;
+}
+.content{
+    border-radius: 8px;
+    height: 17vh;
+    width: 40vw;
+    background: #1111;
+}
+.content-modal{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    height: 30vh;
+    width: 30vw;
+    background: white;
+   
+    
+    
+}
+.hover2{
+    background-color: red;
+    color: white;
+}
+#close-button{
+    color: firebrick;   
+    border: 0.5px solid;
+    margin-top: 4vh;
+    height: 5vh;
+    width: 7vw;
+}
+#save-button{
+  border: 0.5px solid;
+    margin-top: 4vh;
+    height: 5vh;
+    width: 9vw;  
+}
+.hover{
+    background: #006cd2;
+    
+    
+}
+.main{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.window-popup{
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+    top:0;
+    left:0;
+    display: none;
+    
+    
+}
+.button-edit1 {
+    color: darkgray;
+    
+    border-radius: 5px;
+    border: 0.5px solid;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 15vw;
+    
+}
+/*Media query for small device */
+
+
+@media (min-width:200px) and (max-width: 605px) {
+    #save-button{
+        display: none;
+    }
+    #close-button{
+        color: firebrick;
+       border: 0.5px solid;
+    margin-top: 3vh;
+    margin-left: 5vw;    
+    height: 6vh;
+    width: 14vw;
+}
+
+    
+    .content-modal{
+        width: 40vw;
+    }
+    
+    .button-edit1 {
+    
+    border: 0.5px solid;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 40vw;
+    
+}
+    
+    
+    
+}
+    /* END OF MEDIA QUERY FOR SMALL DEVICE*/
